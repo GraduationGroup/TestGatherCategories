@@ -8,6 +8,8 @@ import json
 from TestScrapy.items import TestscrapyItem
     
 class SpiderSpider(scrapy.Spider):
+    a= 'a'
+    b= 'b'
     name = 'spider'
     allowed_domains = ['foody.vn']
     start_urls = ['https://www.foody.vn/']
